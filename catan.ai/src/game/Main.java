@@ -7,7 +7,9 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		Integer[] players = getPlayers();
-		Board board = new Board(players[0], players[1]);
+		Integer numHumans = players[0];
+		Integer numAI = players[1];
+		Board board = new Board(numHumans, numAI);
 		System.out.println("Board initialized!");
 		System.out.println("Number of humans: " + board.numHumans);
 		System.out.println("Number of AI: " + board.numAI);
