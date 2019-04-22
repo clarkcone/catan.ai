@@ -88,6 +88,14 @@ public class Player {
 		this.activeTurn = activeTurn;
 	}
 	
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
 	//TODO - player actions
 	public Integer rollDice() {
 		return 0;
