@@ -1,4 +1,4 @@
-# catan.ai
+# pioneers-of-natac.ai
 Fun side project to create a virtual instance of a Catan inspired game with a working AI.
 
 <hr>
