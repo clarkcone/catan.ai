@@ -5,7 +5,7 @@ import game.Cards.ResourceCard;
 
 public class Player {
 	
-	//player information 
+	//player information   
 	private Boolean isHuman;
 	private String color;
 	//objects that the player owns
